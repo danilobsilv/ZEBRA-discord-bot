@@ -40,7 +40,7 @@ class FootballData:
     def __init__(self, url, api_key, file_path):
         self.url = url
         self.api_key = api_key
-        self.testing_key = "test_6396a83b9303a474692930bb7e2c37"
+        self.testing_key = "xxx"
         self.file_path = file_path
         self.headers = {"Authorization": f"Bearer {self.api_key}"} 
         self.testing_headers = {"Authorization": f"Bearer {self.testing_key}"}
@@ -54,9 +54,3 @@ class FootballData:
             print("Escrito com sucesso!")
 
         return data
-
-
-
-if __name__ == "__main__":
-    football_data = FootballData("https://api.api-futebol.com.br/v1/campeonatos/10", "12345", "football-data\server_data.json")
-    football_data.fetch_data()
