@@ -7,7 +7,7 @@ import json
 file_path = "football-data\server_data.json"
 
 # defining the api url
-url = "https://api.api-futebol.com.br/v1/campeonatos/10"
+url = "xxx"
 
 # setting the header with the api key
 testing_header = {
