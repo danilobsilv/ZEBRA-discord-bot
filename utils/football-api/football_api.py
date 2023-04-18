@@ -1,6 +1,8 @@
 import requests
 import json
 
+# código estruturado 
+"""
 # defining the json file path
 file_path = "football-data\server_data.json"
 
@@ -31,3 +33,30 @@ with open(file_path, "w") as arquivo:
 #function that will be set to get the data when requested to 
 async def get_response(context): 
     pass
+"""
+
+# versão orientada a objeto
+class FootballData:
+    def __init__(self, url, api_key, file_path):
+        self.url = url
+        self.api_key = api_key
+        self.testing_key = "test_6396a83b9303a474692930bb7e2c37"
+        self.file_path = file_path
+        self.headers = {"Authorization": f"Bearer {self.api_key}"} 
+        self.testing_headers = {"Authorization": f"Bearer {self.testing_key}"}
+
+
+    def fetch_data(self):
+        response = requests.get(self.url, headers = self.testing_headers)
+        data = json.loads(response.text)
+        with open(self.file_path, "w") as json_file:
+            json.dump(data, json_file, indent=4)
+            print("Escrito com sucesso!")
+
+        return data
+
+
+
+if __name__ == "__main__":
+    football_data = FootballData("https://api.api-futebol.com.br/v1/campeonatos/10", "12345", "football-data\server_data.json")
+    football_data.fetch_data()
