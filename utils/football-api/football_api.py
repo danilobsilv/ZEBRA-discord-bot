@@ -13,9 +13,9 @@ testing_header = {
 }
 
 # this is the live version of the server, use it when the app is running
-# headers = {
-#     "Authorization": "Bearer MY_LIVE_API_KEY"
-# }
+headers = {
+    "Authorization": "Bearer MY_LIVE_API_KEY"
+}
 
 # getting the data from the server
 response = requests.get(url, headers=testing_header)
@@ -29,5 +29,5 @@ with open(file_path, "w") as arquivo:
     print("Dados salvos com sucesso em dados.json")
 
 #function that will be set to get the data when requested to 
-async def get_response(): 
+async def get_response(context): 
     pass
