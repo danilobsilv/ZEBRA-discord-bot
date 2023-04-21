@@ -1,7 +1,6 @@
 import discord 
 import re 
 
-
 intents = discord.Intents.default()
 intents.message_content = True
 
@@ -32,7 +31,8 @@ async def on_message(message):
     responses = {
         "#oi": f"Oi, {formated_message_author}, tudo bem?",
         "#danilo": "Danilo está ocupado me desenvolvendo...Para de encher o saco!",
-        "#fernanda": "Fernanda é a mãe dele!"
+        "#fernanda": "Fernanda é a mãe dele!",
+        # "#kkk": any_def_Iwant() it works 
     }
 
     for keyword, response in responses.items():
