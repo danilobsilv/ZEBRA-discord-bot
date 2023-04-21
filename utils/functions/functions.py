@@ -9,9 +9,10 @@ def qlqrCoisa():
 """
 
 import re
+from discord import message
 
 def commands():
     pass
 
 def sayOi():  # to trigger "#oi"
-    return 
+    return f"Oi, como você tá?"
