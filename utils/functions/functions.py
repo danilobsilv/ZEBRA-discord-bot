@@ -1,9 +1,8 @@
-import re
 import requests
 import json
-# from config.tokens import Tokens
+from config.tokens import Tokens
 
-# tokens = Tokens()
+tokens = Tokens()
 
 def commands():
       pass
@@ -12,21 +11,23 @@ def sayOi(message):
     author_mention = message.author.mention
     return f"Oi, {author_mention},  como você tá?"
 
-
-def getTabela():  # to do
-
+def getTable():
       url = 'https://api.api-futebol.com.br/v1/campeonatos/10/tabela'
-
-
-      headers = {'Authorization': f'Bearer {"live_2d712d4006ae19758252534d43d9ac"}'}
-
+      headers = {'Authorization': f'Bearer {tokens.api_key}'}
       response = requests.get(url, headers=headers)
-
-      tabela = response.json()
-
+      table = response.json()
 
       with open("football-data\serieA_data.json", "w") as outfile:
-            json.dump(tabela, outfile, indent=4)
+            json.dump(table, outfile, indent=4)
 
+      with open('football-data\serieA_data.json', 'r') as f:
+            data = json.load(f)
+            formatted_table = ""
+            for team in data:
+                  popular_name = team['time']['nome_popular']
+                  position = team['posicao']
+                  points = team['pontos']
+                  row = f'{position}º {popular_name} -- {points} pontos\n'
+                  formatted_table += row
 
-
+            return formatted_table
