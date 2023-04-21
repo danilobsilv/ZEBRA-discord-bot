@@ -23,9 +23,7 @@ async def on_message(message):
         return 
     
     if message.content.startswith("#oi"):
-        # await message.channel.send(printar_oi()) 
+        # await message.channel.send(printar_oi()) funcionou desse jeito
         await message.channel.send(f"Oi, {formated_message_author}, tudo bem?")
 
- 
-# client.run(token.bot_token)
 
