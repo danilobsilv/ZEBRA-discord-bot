@@ -1,0 +1,55 @@
+{
+    "campeonato_id": 14,
+    "nome": "Campeonato Brasileiro S\u00e9rie B",
+    "slug": "campeonato-brasileiro-serie-b",
+    "nome_popular": "Brasileir\u00e3o S\u00e9rie B",
+    "edicao_atual": {
+        "edicao_id": 80,
+        "temporada": "2023",
+        "nome": "Campeonato Brasileiro S\u00e9rie B 2023",
+        "nome_popular": "Brasileir\u00e3o S\u00e9rie B 2023",
+        "slug": "campeonato-brasileiro-serie-b-2023"
+    },
+    "fase_atual": {
+        "fase_id": 371,
+        "nome": "Fase \u00danica",
+        "slug": "fase-unica",
+        "tipo": "pontos-corridos",
+        "_link": "/v1/campeonatos/14/fases/371"
+    },
+    "rodada_atual": {
+        "nome": "1\u00aa Rodada",
+        "slug": "1a-rodada",
+        "rodada": 1,
+        "status": "agendada"
+    },
+    "status": "andamento",
+    "tipo": "Pontos Corridos",
+    "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-serieb.png",
+    "regiao": "nacional",
+    "fases": [
+        {
+            "fase_id": 371,
+            "edicao": {
+                "edicao_id": 80,
+                "temporada": "2023",
+                "nome": "Campeonato Brasileiro S\u00e9rie B 2023",
+                "nome_popular": "Brasileir\u00e3o S\u00e9rie B 2023",
+                "slug": "campeonato-brasileiro-serie-b-2023"
+            },
+            "nome": "Fase \u00danica",
+            "slug": "fase-unica",
+            "status": "andamento",
+            "decisivo": false,
+            "eliminatorio": false,
+            "ida_e_volta": true,
+            "tipo": "pontos-corridos",
+            "grupos": [],
+            "chaves": [],
+            "rodadas": [],
+            "proxima_fase": null,
+            "fase_anterior": null,
+            "_link": "/v1/campeonatos/14/fases/371"
+        }
+    ]
+}
