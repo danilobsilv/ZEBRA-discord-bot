@@ -12,7 +12,7 @@ setup(
     
       description = "Discord bot for Brazilian football championship info and updates",
 
-      install_requires = ["discord.py 2.2.2"]
+      install_requires = ["discord.py 2.2.2"],
 
       packages = find_packages(),
 
@@ -21,5 +21,4 @@ setup(
             "License :: MIT license",
             "Operating System :: Windows 11"
       ]
-
 )
