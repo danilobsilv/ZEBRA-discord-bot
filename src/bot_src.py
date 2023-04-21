@@ -1,9 +1,10 @@
 import discord 
 import re 
+import json
+from utils.functions.functions import *
 
 intents = discord.Intents.default()
 intents.message_content = True
-
 
 client = discord.Client(intents=intents)
 
@@ -28,17 +29,32 @@ async def on_message(message):
     if message.author == client.user:
         return 
 
-    responses = {
-        "#oi": f"Oi, {formated_message_author}, tudo bem?",
-        "#danilo": "Danilo está ocupado me desenvolvendo...Para de encher o saco!",
-        "#fernanda": "Fernanda é a mãe dele!",
-        # "#kkk": any_def_Iwant() it works 
-    }
+    with open("config\keywords.json", "r") as keywords_file:
+        data = json.load(keywords_file)
 
-    for keyword, response in responses.items():
-        if lower_message_content.startswith(keyword):
-            await message.channel.send(response)
-            break
+    for pair in data["keywords"]:
+        trigger = pair["trigger"]
+        response = pair["response"]
+
+        if lower_message_content.startswith(trigger):
+            response_function = eval(response)
+            await message.channel.send(response_function)
+
+    # response[trigger] = response_function
+
+
+
+    # responses = {
+    #     "#oi": f"Oi, {formated_message_author}, tudo bem?",
+    #     "#danilo": "Danilo está ocupado me desenvolvendo...Para de encher o saco!",
+    #     "#fernanda": "Fernanda é a mãe dele!",
+    #     # "#kkk": any_def_Iwant() it works 
+    # }
+
+    # for keyword, response in responses.items():
+    #     if lower_message_content.startswith(keyword):
+    #         await message.channel.send(response)
+    #         break
 
 
 
