@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 
 setup(
       name = "ZEBRA discord bot",
@@ -6,9 +7,19 @@ setup(
       version = "1.0.0",
     
       author = "Danilo Bruno da Silva",
+
+      author_email = "danilobsilv@gmail.com",
     
-      description = """A discord bot that getters info about the about the brazilian football championship and allows the users,
-                              through simple commands, to see these info and stay tuned about what's new""",
+      description = "Discord bot for Brazilian football championship info and updates",
 
       install_requires = ["discord.py 2.2.2"]
+
+      packages = find_packages(),
+
+      classifiers = [
+            "Programming Language :: Python :: 3.9.13",
+            "License :: MIT license",
+            "Operating System :: Windows 11"
+      ]
+
 )
