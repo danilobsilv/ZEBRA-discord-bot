@@ -1,5 +1,5 @@
 from utils.football_api import FootballData
-from src.tokens import Tokens
+from config.tokens import Tokens
 from src.bot_src import client
 
 
