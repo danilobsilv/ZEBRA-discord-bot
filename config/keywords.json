@@ -2,7 +2,7 @@
     "keywords": [
         {
             "trigger": "#oi",
-            "response": "sayOi()"
+            "response": "sayOi(message)"
         },
         {
             "trigger": "#commands",

@@ -1,55 +1,442 @@
-{
-    "campeonato_id": 14,
-    "nome": "Campeonato Brasileiro S\u00e9rie B",
-    "slug": "campeonato-brasileiro-serie-b",
-    "nome_popular": "Brasileir\u00e3o S\u00e9rie B",
-    "edicao_atual": {
-        "edicao_id": 80,
-        "temporada": "2023",
-        "nome": "Campeonato Brasileiro S\u00e9rie B 2023",
-        "nome_popular": "Brasileir\u00e3o S\u00e9rie B 2023",
-        "slug": "campeonato-brasileiro-serie-b-2023"
+[
+    {
+        "posicao": 1,
+        "pontos": 3,
+        "time": {
+            "time_id": 26,
+            "nome_popular": "Fluminense",
+            "sigla": "FLU",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d3492a6e0b.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 3,
+        "gols_contra": 0,
+        "saldo_gols": 3,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
     },
-    "fase_atual": {
-        "fase_id": 371,
-        "nome": "Fase \u00danica",
-        "slug": "fase-unica",
-        "tipo": "pontos-corridos",
-        "_link": "/v1/campeonatos/14/fases/371"
+    {
+        "posicao": 2,
+        "pontos": 3,
+        "time": {
+            "time_id": 18,
+            "nome_popular": "Flamengo",
+            "sigla": "FLA",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d348e3f815.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 3,
+        "gols_contra": 0,
+        "saldo_gols": 3,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
     },
-    "rodada_atual": {
-        "nome": "1\u00aa Rodada",
-        "slug": "1a-rodada",
-        "rodada": 1,
-        "status": "agendada"
+    {
+        "posicao": 3,
+        "pontos": 3,
+        "time": {
+            "time_id": 185,
+            "nome_popular": "Athletico-PR",
+            "sigla": "CAP",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34e1b8948.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 2,
+        "gols_contra": 0,
+        "saldo_gols": 2,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
     },
-    "status": "andamento",
-    "tipo": "Pontos Corridos",
-    "logo": "https://api.api-futebol.com.br/images/competicao/brasileiro-serieb.png",
-    "regiao": "nacional",
-    "fases": [
-        {
-            "fase_id": 371,
-            "edicao": {
-                "edicao_id": 80,
-                "temporada": "2023",
-                "nome": "Campeonato Brasileiro S\u00e9rie B 2023",
-                "nome_popular": "Brasileir\u00e3o S\u00e9rie B 2023",
-                "slug": "campeonato-brasileiro-serie-b-2023"
-            },
-            "nome": "Fase \u00danica",
-            "slug": "fase-unica",
-            "status": "andamento",
-            "decisivo": false,
-            "eliminatorio": false,
-            "ida_e_volta": true,
-            "tipo": "pontos-corridos",
-            "grupos": [],
-            "chaves": [],
-            "rodadas": [],
-            "proxima_fase": null,
-            "fase_anterior": null,
-            "_link": "/v1/campeonatos/14/fases/371"
-        }
-    ]
-}
+    {
+        "posicao": 4,
+        "pontos": 3,
+        "time": {
+            "time_id": 22,
+            "nome_popular": "Botafogo",
+            "sigla": "BOT",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d349052558.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 2,
+        "gols_contra": 1,
+        "saldo_gols": 1,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
+    },
+    {
+        "posicao": 5,
+        "pontos": 3,
+        "time": {
+            "time_id": 64,
+            "nome_popular": "Bragantino",
+            "sigla": "BGT",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a5db2ec.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 2,
+        "gols_contra": 1,
+        "saldo_gols": 1,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
+    },
+    {
+        "posicao": 6,
+        "pontos": 3,
+        "time": {
+            "time_id": 65,
+            "nome_popular": "Corinthians",
+            "sigla": "COR",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a68419f.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 2,
+        "gols_contra": 1,
+        "saldo_gols": 1,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
+    },
+    {
+        "posicao": 7,
+        "pontos": 3,
+        "time": {
+            "time_id": 56,
+            "nome_popular": "Palmeiras",
+            "sigla": "PAL",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a1cf247.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 2,
+        "gols_contra": 1,
+        "saldo_gols": 1,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
+    },
+    {
+        "posicao": 8,
+        "pontos": 3,
+        "time": {
+            "time_id": 23,
+            "nome_popular": "Vasco",
+            "sigla": "VAS",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d3490f1e73.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 2,
+        "gols_contra": 1,
+        "saldo_gols": 1,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
+    },
+    {
+        "posicao": 9,
+        "pontos": 3,
+        "time": {
+            "time_id": 45,
+            "nome_popular": "Gr\u00eamio",
+            "sigla": "GRE",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d349c32bf1.svg"
+        },
+        "jogos": 1,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 1,
+        "gols_contra": 0,
+        "saldo_gols": 1,
+        "aproveitamento": 100,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "v"
+        ]
+    },
+    {
+        "posicao": 10,
+        "pontos": 1,
+        "time": {
+            "time_id": 131,
+            "nome_popular": "Fortaleza",
+            "sigla": "FOR",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c76d067.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "gols_pro": 1,
+        "gols_contra": 1,
+        "saldo_gols": 0,
+        "aproveitamento": 33,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "e"
+        ]
+    },
+    {
+        "posicao": 11,
+        "pontos": 1,
+        "time": {
+            "time_id": 44,
+            "nome_popular": "Internacional",
+            "sigla": "INT",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d349b92103.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "gols_pro": 1,
+        "gols_contra": 1,
+        "saldo_gols": 0,
+        "aproveitamento": 33,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "e"
+        ]
+    },
+    {
+        "posicao": 12,
+        "pontos": 0,
+        "time": {
+            "time_id": 68,
+            "nome_popular": "Bahia",
+            "sigla": "BAH",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a8b6bd8.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 1,
+        "gols_contra": 2,
+        "saldo_gols": -1,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 13,
+        "pontos": 0,
+        "time": {
+            "time_id": 37,
+            "nome_popular": "Cruzeiro",
+            "sigla": "CRU",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34984830b.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 1,
+        "gols_contra": 2,
+        "saldo_gols": -1,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 14,
+        "pontos": 0,
+        "time": {
+            "time_id": 57,
+            "nome_popular": "S\u00e3o Paulo",
+            "sigla": "SAO",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a23c311.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 1,
+        "gols_contra": 2,
+        "saldo_gols": -1,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 15,
+        "pontos": 0,
+        "time": {
+            "time_id": 30,
+            "nome_popular": "Atl\u00e9tico-MG",
+            "sigla": "CAM",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d3494f3380.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 1,
+        "gols_contra": 2,
+        "saldo_gols": -1,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 16,
+        "pontos": 0,
+        "time": {
+            "time_id": 204,
+            "nome_popular": "Cuiab\u00e1",
+            "sigla": "CUI",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34ebcdafa.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 1,
+        "gols_contra": 2,
+        "saldo_gols": -1,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 17,
+        "pontos": 0,
+        "time": {
+            "time_id": 63,
+            "nome_popular": "Santos",
+            "sigla": "SAN",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a5749d6.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 0,
+        "gols_contra": 1,
+        "saldo_gols": -1,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 18,
+        "pontos": 0,
+        "time": {
+            "time_id": 115,
+            "nome_popular": "Goi\u00e1s",
+            "sigla": "GOI",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c1c1d9f.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 0,
+        "gols_contra": 2,
+        "saldo_gols": -2,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 19,
+        "pontos": 0,
+        "time": {
+            "time_id": 84,
+            "nome_popular": "Coritiba",
+            "sigla": "CFC",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34b1296c2.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 0,
+        "gols_contra": 3,
+        "saldo_gols": -3,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    },
+    {
+        "posicao": 20,
+        "pontos": 0,
+        "time": {
+            "time_id": 33,
+            "nome_popular": "Am\u00e9rica-MG",
+            "sigla": "AMG",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34966e9c6.svg"
+        },
+        "jogos": 1,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 0,
+        "gols_contra": 3,
+        "saldo_gols": -3,
+        "aproveitamento": 0,
+        "variacao_posicao": 0,
+        "ultimos_jogos": [
+            "d"
+        ]
+    }
+]
