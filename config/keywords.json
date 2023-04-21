@@ -1,17 +1,16 @@
 {
-      "keywords": [
-          {
-              "trigger": "#oi",
-              "response": "Oi, {name}, tudo bem?"
-          },
-          {
-              "trigger": "#danilo",
-              "response": "Danilo está ocupado me desenvolvendo...Para de encher o saco!"
-          },
-          {
-              "trigger": "#fernanda",
-              "response": "Fernanda é a mãe dele!"
-          }
-      ]
-  }
-  
+    "keywords": [
+        {
+            "trigger": "#oi",
+            "response": "printar_oi()"
+        },
+        {
+            "trigger": "#danilo",
+            "response": "printar_meu_nome()"
+        },
+        {
+            "trigger": "#fernanda",
+            "response": "qlqrCoisa()"
+        }
+    ]
+}
