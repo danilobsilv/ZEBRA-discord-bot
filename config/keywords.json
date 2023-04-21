@@ -1,0 +1,17 @@
+{
+      "keywords": [
+          {
+              "trigger": "#oi",
+              "response": "Oi, {name}, tudo bem?"
+          },
+          {
+              "trigger": "#danilo",
+              "response": "Danilo está ocupado me desenvolvendo...Para de encher o saco!"
+          },
+          {
+              "trigger": "#fernanda",
+              "response": "Fernanda é a mãe dele!"
+          }
+      ]
+  }
+  
