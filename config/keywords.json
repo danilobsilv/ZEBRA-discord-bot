@@ -2,15 +2,11 @@
     "keywords": [
         {
             "trigger": "#oi",
-            "response": "printar_oi()"
+            "response": "sayOi()"
         },
         {
-            "trigger": "#danilo",
-            "response": "printar_meu_nome()"
-        },
-        {
-            "trigger": "#fernanda",
-            "response": "qlqrCoisa()"
+            "trigger": "#commands",
+            "response": "commands()"
         }
     ]
 }

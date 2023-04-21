@@ -1,4 +1,4 @@
-def printar_oi():
+"""def printar_oi():
       return "hello world!"
 
 def printar_meu_nome():
@@ -6,4 +6,12 @@ def printar_meu_nome():
 
 def qlqrCoisa():
       return "Qualquer coisa"
-      
+"""
+
+import re
+
+def commands():
+    pass
+
+def sayOi():  # to trigger "#oi"
+    return 
