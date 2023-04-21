@@ -41,20 +41,3 @@ async def on_message(message):
             await message.channel.send(response_function)
 
     # response[trigger] = response_function
-
-
-
-    # responses = {
-    #     "#oi": f"Oi, {formated_message_author}, tudo bem?",
-    #     "#danilo": "Danilo está ocupado me desenvolvendo...Para de encher o saco!",
-    #     "#fernanda": "Fernanda é a mãe dele!",
-    #     # "#kkk": any_def_Iwant() it works 
-    # }
-
-    # for keyword, response in responses.items():
-    #     if lower_message_content.startswith(keyword):
-    #         await message.channel.send(response)
-    #         break
-
-
-
