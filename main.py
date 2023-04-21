@@ -1,7 +1,7 @@
 from utils.football_api import FootballData
 from config.tokens import Tokens
 from src.bot_src import client
-
+# from utils.functions.functions import getTabela()
 from utils.functions.functions import getTabela
 tokens = Tokens()
 
