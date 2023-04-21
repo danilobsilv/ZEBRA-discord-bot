@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# ignore src/tokens.py
-src/tokens.py
+# ignore config/tokens.py
+config/tokens.py
