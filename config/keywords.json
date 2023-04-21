@@ -7,6 +7,10 @@
         {
             "trigger": "#commands",
             "response": "commands()"
+        },
+        {
+            "trigger": "#tabela",
+            "response": "getTable()"
         }
     ]
 }
