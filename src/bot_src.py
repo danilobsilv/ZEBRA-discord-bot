@@ -21,7 +21,6 @@ sends an appropriate response to the message channel.
 '''
 @client.event
 async def on_message(message):
-    formated_message_author = re.sub("^#\d{1,10}$", "" , message.author.name)
     
     # treat the variations of the same word 
     message_content = message.content
