@@ -1,23 +1,24 @@
 [
     {
         "posicao": 1,
-        "pontos": 3,
+        "pontos": 6,
         "time": {
             "time_id": 26,
             "nome_popular": "Fluminense",
             "sigla": "FLU",
             "escudo": "https://cdn.api-futebol.com.br/escudos/638d3492a6e0b.svg"
         },
-        "jogos": 1,
-        "vitorias": 1,
+        "jogos": 2,
+        "vitorias": 2,
         "empates": 0,
         "derrotas": 0,
-        "gols_pro": 3,
+        "gols_pro": 4,
         "gols_contra": 0,
-        "saldo_gols": 3,
+        "saldo_gols": 4,
         "aproveitamento": 100,
         "variacao_posicao": 0,
         "ultimos_jogos": [
+            "v",
             "v"
         ]
     },
@@ -47,28 +48,6 @@
         "posicao": 3,
         "pontos": 3,
         "time": {
-            "time_id": 185,
-            "nome_popular": "Athletico-PR",
-            "sigla": "CAP",
-            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34e1b8948.svg"
-        },
-        "jogos": 1,
-        "vitorias": 1,
-        "empates": 0,
-        "derrotas": 0,
-        "gols_pro": 2,
-        "gols_contra": 0,
-        "saldo_gols": 2,
-        "aproveitamento": 100,
-        "variacao_posicao": 0,
-        "ultimos_jogos": [
-            "v"
-        ]
-    },
-    {
-        "posicao": 4,
-        "pontos": 3,
-        "time": {
             "time_id": 22,
             "nome_popular": "Botafogo",
             "sigla": "BOT",
@@ -82,13 +61,13 @@
         "gols_contra": 1,
         "saldo_gols": 1,
         "aproveitamento": 100,
-        "variacao_posicao": 0,
+        "variacao_posicao": 1,
         "ultimos_jogos": [
             "v"
         ]
     },
     {
-        "posicao": 5,
+        "posicao": 3,
         "pontos": 3,
         "time": {
             "time_id": 64,
@@ -104,13 +83,36 @@
         "gols_contra": 1,
         "saldo_gols": 1,
         "aproveitamento": 100,
-        "variacao_posicao": 0,
+        "variacao_posicao": 2,
         "ultimos_jogos": [
             "v"
         ]
     },
     {
-        "posicao": 6,
+        "posicao": 5,
+        "pontos": 3,
+        "time": {
+            "time_id": 185,
+            "nome_popular": "Athletico-PR",
+            "sigla": "CAP",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34e1b8948.svg"
+        },
+        "jogos": 2,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 2,
+        "gols_contra": 1,
+        "saldo_gols": 1,
+        "aproveitamento": 50,
+        "variacao_posicao": -2,
+        "ultimos_jogos": [
+            "v",
+            "d"
+        ]
+    },
+    {
+        "posicao": 5,
         "pontos": 3,
         "time": {
             "time_id": 65,
@@ -126,7 +128,7 @@
         "gols_contra": 1,
         "saldo_gols": 1,
         "aproveitamento": 100,
-        "variacao_posicao": 0,
+        "variacao_posicao": 1,
         "ultimos_jogos": [
             "v"
         ]
@@ -220,7 +222,7 @@
         ]
     },
     {
-        "posicao": 11,
+        "posicao": 10,
         "pontos": 1,
         "time": {
             "time_id": 44,
@@ -236,7 +238,7 @@
         "gols_contra": 1,
         "saldo_gols": 0,
         "aproveitamento": 33,
-        "variacao_posicao": 0,
+        "variacao_posicao": 1,
         "ultimos_jogos": [
             "e"
         ]
@@ -286,7 +288,7 @@
         ]
     },
     {
-        "posicao": 14,
+        "posicao": 13,
         "pontos": 0,
         "time": {
             "time_id": 57,
@@ -302,7 +304,7 @@
         "gols_contra": 2,
         "saldo_gols": -1,
         "aproveitamento": 0,
-        "variacao_posicao": 0,
+        "variacao_posicao": 1,
         "ultimos_jogos": [
             "d"
         ]
@@ -399,10 +401,10 @@
         "posicao": 19,
         "pontos": 0,
         "time": {
-            "time_id": 84,
-            "nome_popular": "Coritiba",
-            "sigla": "CFC",
-            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34b1296c2.svg"
+            "time_id": 33,
+            "nome_popular": "Am\u00e9rica-MG",
+            "sigla": "AMG",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34966e9c6.svg"
         },
         "jogos": 1,
         "vitorias": 0,
@@ -412,19 +414,19 @@
         "gols_contra": 3,
         "saldo_gols": -3,
         "aproveitamento": 0,
-        "variacao_posicao": 0,
+        "variacao_posicao": 1,
         "ultimos_jogos": [
             "d"
         ]
     },
     {
-        "posicao": 20,
+        "posicao": 19,
         "pontos": 0,
         "time": {
-            "time_id": 33,
-            "nome_popular": "Am\u00e9rica-MG",
-            "sigla": "AMG",
-            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34966e9c6.svg"
+            "time_id": 84,
+            "nome_popular": "Coritiba",
+            "sigla": "CFC",
+            "escudo": "https://cdn.api-futebol.com.br/escudos/638d34b1296c2.svg"
         },
         "jogos": 1,
         "vitorias": 0,
