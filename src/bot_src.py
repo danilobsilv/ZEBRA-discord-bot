@@ -1,5 +1,4 @@
 import discord 
-import re 
 import json
 from utils.functions.functions import *
 
