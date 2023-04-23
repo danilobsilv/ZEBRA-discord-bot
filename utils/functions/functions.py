@@ -4,6 +4,7 @@ from config.tokens import Tokens
 
 tokens = Tokens()
 
+
 def commands():
     formated_row = ""
     with open("config\commands.txt" ,'r') as arquivo:
@@ -13,7 +14,6 @@ def commands():
     for command in commands_list:
         formated_row += command+"\n"
     return formated_row
-
 
 
 def sayOi(message):
@@ -38,13 +38,3 @@ def getTable():
         formatted_table += row
 
     return formatted_table
-
-def getTopScorers():
-    headers = {"Authorization": f"Bearer {tokens.api_key}"}
-    response = requests.get(tokens.topscorers_endpoint, headers=headers)
-    table = response.json()
-
-    with open("football-data\serieA_artilharia.json", "w") as topscorers_file:
-        json.dump(table, topscorers_file, indent=4)
-
-    
