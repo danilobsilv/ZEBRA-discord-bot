@@ -39,5 +39,3 @@ async def on_message(message):
         if lower_message_content.startswith(trigger):
             response_function = eval(response)
             await message.channel.send(response_function)
-
-    # response[trigger] = response_function
