@@ -1,5 +1,4 @@
 Lista de comandos:
 
-#oi --> Eu respondo você de volta!
-#tabela --> Eu retorno a tabela 100% atualizada do brasileirão.
-#artilharia --> Eu retorno os artilheiros do campeonato!
+#oi --> I answer you back!
+#tabela --> I return the updated Brazilian championship table for you
